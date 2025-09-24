@@ -21,6 +21,8 @@ Semua bekerja **tanpa internet**, cocok untuk area berbukit dan minim infrastruk
 
 ## Cara Kerja (Gambaran Sederhana)
 
+![TRESNO — arsitektur animasi](../assets/tresno-architecture-animated.gif)
+ 
 - **Navigator** — perangkat yang dibawa pengunjung. Mengirim lokasi berkala, menampilkan arah pulang, dan punya tombol SOS.
 - **Relay** — titik pemantul sinyal yang dipasang di titik strategis agar jangkauan meluas.
 - **Gateway** — unit di basecamp yang mengumpulkan data dan menampilkan **peta live** untuk relawan.
