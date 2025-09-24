@@ -46,14 +46,9 @@ Semua bekerja **tanpa internet**, cocok untuk area berbukit dan minim infrastruk
 
 ---
 
-## Roadmap Singkat (Jul–Okt 2025)
+## Roadmap (Jul–Okt 2025)
 
-- **Juli:** finalisasi spesifikasi, prototipe perangkat & jalur komunikasi, rancangan peta live.  
-- **Agustus:** rakit & uji prototipe Navigator/Relay/Gateway, demonstrasi alur end-to-end, SOP pemasangan & operasi v1.  
-- **September:** uji lapangan #1, perbaikan & penguatan terhadap kondisi lembap/debu, dashboard ringkas untuk relawan.  
-- **Oktober:** uji lapangan #2 (jangkauan target), optimasi daya, finalisasi SOP & rilis dokumentasi singkat.
-
-> Detail roadmap mingguan tersedia di dokumen internal tim.
+<p align="center"><img src="../assets/roadmap.png" alt="roadmap"/></p>
 
 ---
 
@@ -71,7 +66,7 @@ Semua bekerja **tanpa internet**, cocok untuk area berbukit dan minim infrastruk
 Kami terbuka untuk:
 - **Relawan lapangan** yang membantu uji coba & umpan balik.
 - **Mitra komunitas** (SAR, pengelola wisata, kampus) untuk validasi skenario nyata.
-- **Kontributor** (desain casing, dokumentasi, UI peta, SOP).
+- **Kontributor** (desain casing, dokumentasi, UI peta, SOP, pendanaan).
 
 Silakan buat **issue** di repositori terkait atau hubungi kami:
 - Email: `hello@tresno-project.org` *(placeholder)*
