@@ -21,36 +21,6 @@ Semua bekerja **tanpa internet**, cocok untuk area berbukit dan minim infrastruk
 
 ## Cara Kerja (Gambaran Sederhana)
 
-graph LR
-  %% ===== Groups =====
-  subgraph FIELD["FIELD (Lapangan)"]
-    N1["NAVIGATOR #1"]
-    N2["NAVIGATOR #2"]
-    N3["NAVIGATOR #3"]
-    R1["RELAY #1 (Omni)"]
-    R2["RELAY #2 (Omni)"]
-  end
-
-  subgraph MAST["GATEWAY MAST (Yagi)"]
-    LM["LoRa Rx → UART"]
-    RS["UART→RS485 → RJ45"]
-  end
-
-  subgraph INDOOR["BASECAMP INDOOR"]
-    RP["Raspberry Pi<br/>Webapp + Buzzer"]
-    PH["Smartphone (Wi-Fi lokal)"]
-  end
-
-  %% ===== Links =====
-  N1 -. LoRa 433MHz .-> R1
-  N2 -. LoRa 433MHz .-> R1
-  N3 -. LoRa 433MHz .-> R2
-  R1 -. LoRa 433MHz .-> R2
-  R2 -. LoRa 433MHz .-> LM
-  LM --> RS
-  RS --> RP
-  RP ~~~ PH
-
 - **Navigator** — perangkat yang dibawa pengunjung. Mengirim lokasi berkala, menampilkan arah pulang, dan punya tombol SOS.
 - **Relay** — titik pemantul sinyal yang dipasang di titik strategis agar jangkauan meluas.
 - **Gateway** — unit di basecamp yang mengumpulkan data dan menampilkan **peta live** untuk relawan.
